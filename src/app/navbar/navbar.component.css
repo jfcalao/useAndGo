@@ -1,0 +1,45 @@
+#navbar{
+    position: absolute;
+    z-index: 1;
+    padding-left: 8%;
+    padding-top: 2%;
+}
+.container{
+    margin-left: 100px;
+}
+@media (max-width: 576px) { 
+    #mainNav{
+        padding: 0;
+        left: 0;
+        margin: 0;
+    }
+    #contenedor1{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (max-width: 768px) {
+    #mainNav{
+        padding: 0;
+        left: 0;
+        margin: 0;
+    }
+    #contenedor1{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 1200px) {
+    #mainNav{
+        padding: 0;
+        left: 0;
+        margin: 0;
+    }
+    #contenedor1{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
