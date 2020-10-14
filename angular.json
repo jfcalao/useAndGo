@@ -123,6 +123,7 @@
   },
   "defaultProject": "useAndGo",
   "cli": {
+
     "analytics": "1c9cd5ee-02fa-4a18-9524-5a79d2e25530"
   }
 }
