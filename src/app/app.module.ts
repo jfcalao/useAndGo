@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CaracteristicasComponent } from './caracteristicas/caracteristicas.component';
 import { VehiculosComponent } from './vehiculos/vehiculos.component';
 import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     VehiculosComponent,
     PaginaPrincipalComponent,
     NavbarComponent
+    CaracteristicasComponent,
   ],
   imports: [
     BrowserModule,

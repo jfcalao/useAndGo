@@ -1,0 +1,59 @@
+.caracteristicas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: inherit; 
+  justify-content: inherit;
+  flex-wrap: inherit;
+  align-items: inherit;
+  flex-direction: inherit;
+
+}
+.wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.description{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.description-title{
+  /* font-family: Inter; */
+
+}
+.description-details{
+  /* font-family: DM Sans; */
+  font-weight: lighter;
+  font-size: 12px;
+}
+.description a{
+  width: max-content;
+  text-decoration: none;
+}
+.section-images{
+  max-width: 80%;
+}
+.images{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: .5rem;
+  margin-top: 4rem;
+}
+.calao-images{
+  border-radius: 10px;
+  height: 11rem;
+  width: 18rem;
+}
