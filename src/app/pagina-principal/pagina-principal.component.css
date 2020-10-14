@@ -7,6 +7,9 @@ p{
     opacity: 0.7;
     font-size: 16px;
 }
+button{
+    background-color: #4567FF;
+}
 #contenedorPrincipal{
     background-image: url('../../assets/fondo2.jpg');
     background-size: cover;

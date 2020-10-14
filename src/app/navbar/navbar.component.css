@@ -7,6 +7,9 @@
 .container{
     margin-left: 100px;
 }
+.bgc{
+    background-color: #12161A;
+}
 @media (max-width: 576px) { 
     #mainNav{
         padding: 0;
