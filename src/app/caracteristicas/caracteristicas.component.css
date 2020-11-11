@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 75px;
 }
 .container{
   display: inherit; 
@@ -50,7 +51,7 @@
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: .5rem;
-  margin-top: 4rem;
+  margin-top: 9rem;
 }
 .calao-images{
   border-radius: 10px;
