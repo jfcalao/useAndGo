@@ -1,0 +1,129 @@
+h1{
+    color: white;
+    font-size: 36px;
+}
+p{
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+}
+button{
+    background-color: #4567FF;
+}
+#contenedorPrincipal{
+    background-image: url('../../assets/fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+}
+#contenedorPrincipal::before{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+}
+#contenedorTextoPrincipal{
+    max-width: 608px;
+    padding-top: 11.5%;
+    padding-left: 9%;
+    padding-right: 0%;
+    position: relative;
+}
+#contenedorDeBusqueda{
+    position: absolute;
+    left: 220px;
+    top: 450px;
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+#contenedorDeBusqueda::before{
+    content: "";
+    position: absolute;
+    background-color: gray;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:blur(10px);
+    z-index: -1;
+}
+#busqueda{
+    margin: 0;
+    padding-left: 35px;
+    padding-top: 20px;
+    width: 550px;
+    height: 55px;
+    margin-bottom: 15px;
+}
+#buscar{
+    position: absolute;
+    left: 79%;
+    top: 70%;
+    width: 175px;
+}
+#filtros{
+    display: flex;
+    flex-direction: row;
+    margin:0px;
+    margin-left: 20px;
+    width: 450px;
+    height: 40px;
+}
+svg{
+    margin-top: 5px;
+}
+@media (max-width: 576px) { 
+    #contenedorTextoPrincipal{
+        padding-top: 30%;
+    }
+    #contenedorDeBusqueda{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    #contenedorTextoPrincipal{
+        padding-top: 30%;
+    }
+    #contenedorDeBusqueda{
+       left:120px;
+       top: 84%;
+    }
+    #buscar{
+        top: 73%;
+        left: 70%;
+        width: auto;
+    }
+    #busqueda{
+        width: 400px;
+    }
+    svg{
+        margin-top: 7px;
+        height: 20px;
+    }
+}
+@media (max-width: 992px) {
+    
+}
+@media (max-width: 1200px) {
+    #contenedorTextoPrincipal{
+        padding-top: 30%;
+    }
+    #contenedorDeBusqueda{
+       left: 14.6%;
+       top: 88%;
+    }
+    #buscar{
+        top: 73%;
+        left: 75%;
+        width: auto;
+    }
+}
