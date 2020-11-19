@@ -15,14 +15,4 @@ export class NavbarComponent implements OnInit {
     var someElement= document.getElementById("mainNav");
     someElement.className = "navbar navbar-expand-lg navbar-dark fixed-top bgc";
   }
-  @HostListener("document:scroll")
-  scrollfunction(){
-    var someElement= document.getElementById("mainNav");
-    if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0){
-      someElement.className = "navbar navbar-expand-lg navbar-dark fixed-top bgc";
-    }else{
-      someElement.classList.remove("bg-dark");
-      someElement.className = "navbar navbar-expand-lg navbar-dark fixed-top mt-3 bg-transparent";
-    }
-  }
 }
