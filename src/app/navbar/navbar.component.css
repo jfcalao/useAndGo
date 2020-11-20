@@ -8,8 +8,23 @@
     margin-left: 100px;
 }
 .bgc{
-    background-color: #12161A;
+    background-color: #090a0cf5;
 }
+button{
+    margin-left: 10px;
+    border-radius: 200px;
+    margin-top: 5px;
+    outline: none;
+}
+
+#botonRegistro{
+    margin-right: 100px;
+}
+
+#logo{
+    margin-left: 70px;
+}
+
 @media (max-width: 576px) { 
     #mainNav{
         padding: 0;

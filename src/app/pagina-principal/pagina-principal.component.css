@@ -31,15 +31,15 @@ button{
 }
 #contenedorTextoPrincipal{
     max-width: 608px;
-    padding-top: 11.5%;
-    padding-left: 9%;
+    padding-top: 10%;
+    padding-left: 7%;
     padding-right: 0%;
     position: relative;
 }
 #contenedorDeBusqueda{
     position: absolute;
-    left: 220px;
-    top: 450px;
+    left: 205px;
+    top: 420px;
     width: 70%;
     height: 200px;
     background-color: white;
@@ -69,6 +69,7 @@ button{
     left: 79%;
     top: 70%;
     width: 175px;
+    border-radius: 200px;
 }
 #filtros{
     display: flex;
